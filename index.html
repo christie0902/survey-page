@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page</title>
+    <link rel="stylesheet" href="css/style.scss">
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <form class="form">
+        <div class="form__name">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+        </div>
+
+        <div class="form__email">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div class="form__batch">
+            <label for="batches">CHOOSE BATCH</label>
+            <select name="batches" id="batches">
+                <option value="winter23">Winter 2023</option>
+                <option value="spring23">Spring 2023</option>
+                <option value="autumn23">Autumn 2023</option>
+            </select>
+        </div>
+
+        <div class="form__radio-button">
+            <label for="label">DID YOU COMPLETE ALL THE EXERCISES FROM WEEK 1</label>
+            <div>
+                <input type="radio" id="completed" name="completed">
+                <label for="completed">Yes</label>
+            </div>
+            <div>
+                <input type="radio" id="completed" name="completed">
+                <label for="completed">No</label>
+            </div>
+        </div>
+
+        <div class="form__check-box">
+            <label for="label">CHOOSE YOUR FAVORITE EXERCISES</label>
+            <div>
+                <input type="checkbox" id="selectors" name="selectors">
+                <label for="selectors">CSS selectors</label>
+            </div>
+            <div>
+                <input type="checkbox" id="bookpage" name="bookpage">
+                <label for="bookpage">Book page</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Kindergarten" name="Kindergarten">
+                <label for="Kindergarten">Belfast International Kindergarten</label>
+            </div>
+            <div>
+                <input type="checkbox" id="retreat" name="retreat">
+                <label for="retreat">Crownsnest Retreat</label>
+            </div>
+            <div>
+                <input type="checkbox" id="google" name="google">
+                <label for="google">Google page</label>
+            </div>
+            <div>
+                <input type="checkbox" id="documentation" name="documentation">
+                <label for="documentation">Documentation page</label>
+            </div>
+            <div>
+                <input type="checkbox" id="portfolio" name="portfolio">
+                <label for="portfolio">Aneta Webbie Personal Portfolio</label>
+            </div>
+        </div>
+
+        <div class="form__text-area">
+            <label for="feedback">WRITE FEEDBACK</label>
+            <textarea name="feedback" id="feedback" cols="80" rows="10"></textarea>
+        </div>
+
+        <button>SUBMIT</button>
+    </form>
+</body>
+</html>
