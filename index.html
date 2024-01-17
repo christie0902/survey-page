@@ -10,17 +10,17 @@
     <h1>Feedback Form</h1>
     <form class="form">
         <div class="form__name">
-            <label for="name">Name</label>
+            <label class="form__title-label" for="name">NAME</label>
             <input type="text" id="name" name="name">
         </div>
 
         <div class="form__email">
-            <label for="email">Email</label>
+            <label class="form__title-label" for="email">EMAIL</label>
             <input type="email" id="email" name="email">
         </div>
 
         <div class="form__batch">
-            <label for="batches">CHOOSE BATCH</label>
+            <label class="form__title-label" for="batches">CHOOSE BATCH</label>
             <select name="batches" id="batches">
                 <option value="winter23">Winter 2023</option>
                 <option value="spring23">Spring 2023</option>
@@ -29,7 +29,7 @@
         </div>
 
         <div class="form__radio-button">
-            <label for="label">DID YOU COMPLETE ALL THE EXERCISES FROM WEEK 1</label>
+            <label class="form__title-label" for="label">DID YOU COMPLETE ALL THE EXERCISES FROM WEEK 1</label>
             <div>
                 <input type="radio" id="completed" name="completed">
                 <label for="completed">Yes</label>
@@ -41,7 +41,7 @@
         </div>
 
         <div class="form__check-box">
-            <label for="label">CHOOSE YOUR FAVORITE EXERCISES</label>
+            <label class="form__title-label" for="label">CHOOSE YOUR FAVORITE EXERCISES</label>
             <div>
                 <input type="checkbox" id="selectors" name="selectors">
                 <label for="selectors">CSS selectors</label>
@@ -73,8 +73,8 @@
         </div>
 
         <div class="form__text-area">
-            <label for="feedback">WRITE FEEDBACK</label>
-            <textarea name="feedback" id="feedback" cols="80" rows="10"></textarea>
+            <label class="form__title-label" for="feedback">WRITE FEEDBACK</label>
+            <textarea name="feedback" id="feedback" cols="80" rows="8"></textarea>
         </div>
 
         <button>SUBMIT</button>
